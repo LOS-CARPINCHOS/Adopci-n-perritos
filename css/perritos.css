@@ -51,6 +51,26 @@ img{
 .primero a{
     margin-left: 20px;
 }
+
 main h1{
     font-family: 'titulo';
+}
+main div img{
+    width: 100px;
+
+}
+main div{
+    column-count: 2;
+    border: 1px solid black;
+    width: 500px;
+    height: 300px;
+}
+main div p:first-of-type{
+    padding-left: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+main div p:nth-of-type(2){
+    font-size: 20px;
 }
