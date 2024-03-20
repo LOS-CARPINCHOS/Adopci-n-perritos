@@ -6,7 +6,9 @@
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(222, 252, 169);
 }
-
+.primero img{
+    width: 50px;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -29,10 +31,6 @@ nav a{
     border-radius: 5px;
 }
 
-img{
-    width: 50px;
-}
-
 .segundo ul{
     display: flex;
 }
@@ -51,17 +49,19 @@ img{
 .primero a{
     margin-left: 20px;
 }
-
+main{
+    text-align: center;
+}
 main h1{
+    font-style: oblique;
     font-family: 'titulo';
 }
-main div img{
-    width: 100px;
-
-}
 main div{
+    padding:10px;
+    margin: 10px;
     column-count: 2;
-    border: 1px solid black;
+    border: 1px dashed black;
+    border-radius: 5px;
     width: 500px;
     height: 300px;
 }
@@ -71,6 +71,35 @@ main div p:first-of-type{
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+hr{
+    margin:15px;
+    color: black;
+    border: 1px solid black;
+}
+section img{
+    border-radius: 5px;
+}
 main div p:nth-of-type(2){
     font-size: 20px;
+}
+main div p:nth-of-type(3){
+    font-size: 15px;
+}
+#dafne img{
+    width: 100px;
+}
+#tres img{
+    margin-top:20px;
+    width: 170px;
+}
+#cuatro img{
+    width: 200px;
+}
+section div img{
+    width: 150px;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
